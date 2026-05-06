@@ -1,7 +1,7 @@
 import random
 
 print("=== Adivinhe o número ===\n")
-secreto = random.randint(a=1, b=100)
+secreto = random.randint(a=1, b=1000)
 tentativas = 0
 palpite = 0
 while palpite != secreto :
